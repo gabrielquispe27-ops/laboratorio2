@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "0.1.0"
+description = "Paquete de ejemplo con CI simple"
+readme = "README.md"
+authors = [{name = "Tu Nombre"}]
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+test = ["pytest"]

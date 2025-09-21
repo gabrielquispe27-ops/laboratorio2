@@ -1,3 +1,3 @@
 from .calculator import add
 
-_all_ = ["add"]
+__all__ = ["add"]
